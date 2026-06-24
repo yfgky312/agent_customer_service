@@ -31,7 +31,7 @@ ReviewAgent（合规审核）
 
 - Python 3.12
 - LangChain + LangGraph
-- DeepSeek 8B (本地部署)
+- DeepSeek-r1:8b (本地部署)
 - FastAPI（可扩展）
 
 ## 快速开始
@@ -55,6 +55,7 @@ python main.py
 [Draft] 草稿生成完成
 [Review] 审核通过
 → 最终回复：xxx
+```
 
 可扩展方向
 
