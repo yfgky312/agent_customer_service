@@ -36,7 +36,6 @@ ReviewAgent（合规审核）
 
 ## 快速开始
 
-```bash
 # 1. 进入项目目录
 cd agent_customer_service
 
