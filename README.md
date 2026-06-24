@@ -2,18 +2,21 @@
 
 基于 LangGraph 的多 Agent 协作系统，模拟真实企业客服场景，自动完成工单分类、知识库检索、回复草稿生成和质量审核。
 
+```markdown
 ## 系统架构
 
+```
+
 用户输入
-    ↓
+↓
 ClassifierAgent（意图分类 + 优先级评估）
-    ↓
+↓
 RetrievalAgent（知识库检索）
-    ↓
+↓
 DraftAgent（生成回复草稿）
-    ↓
+↓
 ReviewAgent（合规审核）
-    ↓
+↓
 输出最终回复
 
 
@@ -42,11 +45,11 @@ cd agent_customer_service
 # 2. 运行
 python main.py
 
-演示效果
+## 演示效果
 
 运行后，系统会自动处理一条测试工单，完整展示从分类到审核的全流程：
 
-```
+```plaintext
 用户输入：我遇到一个bug，系统登录后页面一直加载不出来
 
 [Classifier] 意图：technical，优先级：高
@@ -54,7 +57,6 @@ python main.py
 [Draft] 草稿生成完成
 [Review] 审核通过
 → 最终回复：xxx
-```
 
 可扩展方向
 
